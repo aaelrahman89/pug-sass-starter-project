@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title proj title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel="stylesheet", href="css/main.css")
+    link(rel="stylesheet", href="css/bootstrap.css")
+    script(src="https://use.fontawesome.com/f1b8db79bb.js")
+  body
+   include includes/header.pug
+   
+   block content
+    .content render body
+
+
+   include includes/footer.pug 
+   //- js files
+   script(src="js/jquery-3.3.1.slim.min.js")
+   script(src="js/popper.min.js")
+   script(src="js/bootstrap.min.js")
+   
+   
